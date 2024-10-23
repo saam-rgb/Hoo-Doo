@@ -1,12 +1,15 @@
 import React from "react";
+import logo from "../../public/logo.webp";
+import logoText from "../../public/logoText.webp";
 
 export const Nav = () => {
   return (
     <div className="">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav class="navbar navbar-expand-lg  ">
         <div class="container  bg-transparent">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand d-flex align-items-end" href="#">
+            <img src={logo} alt="" className="logo me-2" />
+            <img src={logoText} alt="" className="logoText" />
           </a>
           <button
             class="navbar-toggler"
@@ -18,20 +21,7 @@ export const Nav = () => {
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Features
-                </a>
-              </li>
-            </ul>
-          </div>
+          <div class="collapse navbar-collapse" id="navbarNav"></div>
         </div>
       </nav>
     </div>

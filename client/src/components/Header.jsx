@@ -4,16 +4,16 @@ import dragon from "../assets/dragon.png";
 
 export const Header = () => {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <div className="header">
         <div className="row align-items-center">
           <div className="col-md-6">
-            <h2>Your ultimate paranormal assistant</h2>
+            <h1>Your ultimate paranormal assistant</h1>
             <p>Unleash the haunt with Hoo Doo</p>
-            <button className="btn">Learn more</button>
+            <button className="btn secondary">Learn more</button>
           </div>
-          <div className="col-md-6">
-            <img src={dragon} />
+          <div className="col-md-6 d-flex justify-content-center">
+            <img src={dragon} className="size" />
           </div>
           {/* <div className="col-md-4">
             <ul>

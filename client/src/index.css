@@ -4,6 +4,18 @@
   box-sizing: border-box;
   color: #fff;
 }
+.logo {
+  width: 40px !important;
+}
+
+.logoText {
+  width: 150px;
+  height: 40px;
+}
+li a {
+  color: #fff !important;
+  font-size: 18px !important;
+}
 .bg {
   background: #040119;
   min-height: 100vh;
@@ -16,9 +28,38 @@ h2 {
   font-size: 32px;
   font-family: baron;
 }
+h1 {
+  font-family: baron;
+}
+h3 {
+  font-family: baron;
+}
 p {
   font-size: 20px;
 }
 .bg-transparent {
   background-color: transparent !important;
+}
+.btn {
+  background: #ff9c39 !important;
+  font-weight: 600 !important;
+}
+.btn:hover {
+  background: #040119 !important;
+  border: 1px solid #ff9c39 !important;
+  color: #ff9c39 !important;
+}
+.size {
+  width: 500px;
+}
+li {
+  list-style: none;
+}
+/* footer */
+.col-md-8 img {
+  width: 150px !important;
+}
+
+.more {
+  overflow: hidden;
 }
