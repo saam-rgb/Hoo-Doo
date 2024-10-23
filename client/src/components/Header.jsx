@@ -12,7 +12,7 @@ export const Header = () => {
               Your ultimate paranormal assistant
             </h1>
             <p>Unleash the haunt with Hoo Doo</p>
-            <button className="btn secondary">Learn more</button>
+            <button className="btn secondary">Shop now</button>
           </div>
           <div className="col-md-6 d-flex justify-content-center mt-5 mt-md-0">
             <img src={dragon} className="size" />
