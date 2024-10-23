@@ -6,16 +6,16 @@ import deezer from "../assets/deezer.jpg";
 
 export const More = () => {
   return (
-    <div className="text-center mt-5 more">
+    <div className="text-center mt-5 more pb-5">
       <div>
         <div className="row d-flex justify-content-center align-items-center">
-          <div className="col-md-8 ">
+          <div className="col-md-8 col-10 ">
             <img src={itunes} alt="" className="me-4" />
             <img src={spotify} alt="" className="me-4" />
             <img src={deezer} alt="" className="me-4" />
             <img src={tuneIn} alt="" className="me-4" />
             <div className="mt-4">
-              <h2>DO MORE WITH HOO DOO APP</h2>
+              <h2 className="mb-3">DO MORE WITH HOO DOO APP</h2>
               <p>
                 Get the most out of your HOO DOO device by downloading the app
                 today. With the app, you can control your smart home, set

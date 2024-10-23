@@ -3,9 +3,9 @@ import dragon from "../assets/dragon.png";
 
 export const Features = () => {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-4">
+    <div className="container my-5">
+      <div className="row px-md-0 px-sm-2 px-4">
+        <div className="col-lg-4 col-12">
           <div className="feat">
             <h3 className="text-uppercase">Virtual Trick-or-Treat</h3>
             <p>
@@ -21,10 +21,10 @@ export const Features = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-4 d-flex justify-content-center">
+        <div className="col-lg-4 col-12 d-flex justify-content-center mb-lg-0 mb-5">
           <img src={dragon} alt="Dragon Image" />
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4 col-12">
           <div className="feat">
             <h3 className="text-uppercase">
               Scary Music and Halloween Playlists

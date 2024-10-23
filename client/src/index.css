@@ -7,7 +7,9 @@
 .logo {
   width: 40px !important;
 }
-
+.mb-3 .logo {
+  width: 100px !important;
+}
 .logoText {
   width: 150px;
   height: 40px;
@@ -20,9 +22,19 @@ li a {
   background: #040119;
   min-height: 100vh;
 }
+.border1 {
+  border: 1px solid #ff9c39 !important;
+}
 @font-face {
   font-family: baron;
   src: url(./assets/fonts/Baron-Neue.otf);
+}
+.about {
+  overflow: hidden;
+}
+.heading {
+  font-size: 34px;
+  color: #ff9c39;
 }
 h2 {
   font-size: 32px;
@@ -35,7 +47,7 @@ h3 {
   font-family: baron;
 }
 p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .bg-transparent {
   background-color: transparent !important;
@@ -49,6 +61,17 @@ p {
   border: 1px solid #ff9c39 !important;
   color: #ff9c39 !important;
 }
+.btn1:hover {
+  background: #ff9c39 !important;
+  color: #040119 !important;
+  font-weight: 600 !important;
+}
+.btn1 {
+  background: #040119 !important;
+  border: 1px solid #ff9c39 !important;
+  color: #ff9c39 !important;
+  font-weight: 600 !important;
+}
 .size {
   width: 500px;
 }
@@ -57,7 +80,7 @@ li {
 }
 /* footer */
 .col-md-8 img {
-  width: 150px !important;
+  width: 150px;
 }
 
 .more {

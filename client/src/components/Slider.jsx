@@ -2,8 +2,9 @@ import React from "react";
 
 export const Slider = () => {
   return (
-    <div className="container border rounded-2 mb-5">
-      <div className="row py-4">
+    <div className="container border1  rounded-2 mb-5 py-4">
+      <h2 className="heading ps-4 mb-4">Features</h2>
+      <div className="row ">
         <div className="col-md-6">
           <ul>
             <li>
