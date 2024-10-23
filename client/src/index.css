@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+.bg {
+  background: #040119;
+  min-height: 100vh;
+}
+@font-face {
+  font-family: baron;
+  src: url(./assets/fonts/Baron-Neue.otf);
+}
+h2 {
+  font-size: 32px;
+  font-family: baron;
+}
+p {
+  font-size: 20px;
+}
+.bg-transparent {
+  background-color: transparent !important;
+}
